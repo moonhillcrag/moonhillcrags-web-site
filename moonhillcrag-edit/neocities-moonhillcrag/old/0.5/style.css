@@ -1,0 +1,142 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+    
+html, body {
+    margin:0px;
+    min-height:1000px;
+    background:black
+    url(https://moonhillcrag.neocities.org/assets/spacebackground.gif)
+    repeat;
+    
+    }
+    
+    @font-face {
+    font-family: 'upheaval';
+    src: url('https://moonhillcrag.neocities.org/fonts/upheavalfont/upheavtt-webfont.woff2') format('woff2'),
+         url('https://moonhillcrag.neocities.org/fonts/upheavalfont/upheavtt-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+
+    }
+    
+    p {
+      color:white;
+      font-family:Helvetica;
+      font-size:18px;
+      margin:10px 15px 10px 15px;
+    }
+    
+    a:link {
+      color: #e0d502;
+    }
+    
+    a:visited {
+      color: #e0d502;
+    }
+    
+    a:hover {
+      color:white;
+    }
+    
+    ul {
+      list-style-image:url("https://moonhillcrag.neocities.org/assets/star.png");
+    }
+    
+    .button {
+      height:40.3px;
+      width:114.4px;
+    }
+    
+    .ghostlink {
+      text-decoration:none;
+    } 
+    
+    .linklist {
+      height:210px;
+      width:250px;
+      overflow:auto;
+      display:inline-block;
+      border:5px solid white;
+      padding:15px 30px 15px 30px;
+      margin:1px 30px 30px 50px;
+      color:white;
+      background:#0c015c;
+      font-size:20px;
+    }
+    
+    .titles {
+      color: #e0d502; 
+      font-family:'helvetica';
+      margin:20px 30px 30px 20px;
+    }
+    
+    .titles2 {
+      color: #e0d502; 
+      font-family:'helvetica';
+      margin:10px 15px 10px 15px;
+    }
+    
+    .bigboy {
+      color: blue;
+      font-family:"upheaval";
+      font-size:50px;
+      letter-spacing:3px;
+      margin:20px;
+    }
+    
+    .hcontainer {
+      border:2px solid white;
+      background:#0c015c;
+      margin:5px;
+    }
+    
+    .pcontainer {
+      border:2px solid white;
+      background:black;
+      margin:5px;
+    }
+    
+    .subcontainer {
+      border:5px solid white;
+      background:#0c015c;
+      margin:5px;
+      display:inline-block;
+    }
+    
+    #scrolllist {
+      height:210px;
+      width:653px;
+      overflow:auto;
+      font-size:20px;
+      padding:15px 5px 15px 30px;
+      margin:1px 5px 30px 50px; 
+      border:5px solid white; 
+      background: black; 
+      display:inline-block; 
+      color:white;  
+      list-style-image:none;
+    }
+    
+    #navbar {
+      order:1;
+      border:5px solid white;
+      padding:1px 5px 1px 5px;
+      margin:10px 30px 10px 30px;
+      background:#0c015c;
+      font-size:30px;
+      height:100%;
+      width:210px;
+    }
+    
+    #flex {
+      display:flex;
+    }
+    
+    #content {
+      flex:1;
+      order:2;
+    }
+    
+      
+      

@@ -1,0 +1,167 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+    
+html, body {
+    margin:0px;
+    min-height:1000px;
+    background:black
+    url(https://moonhillcrag.neocities.org/assets/spacebackground.gif)
+    repeat;
+    
+    }
+    
+    @font-face {
+    font-family: 'upheaval';
+    src: url('https://moonhillcrag.neocities.org/font/upheavalfont/upheavtt-webfont.woff2') format('woff2'),
+         url('https://moonhillcrag.neocities.org/font/upheavalfont/upheavtt-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+    }
+    
+    p {
+      color:white;
+      font-family:Helvetica;
+      font-size:18px;
+      margin:10px 15px 10px 15px;
+    }
+    
+    a:link {
+      color: #e0d502;
+    }
+    
+    a:visited {
+      color: #e0d502;
+    }
+    
+    a:hover {
+      color:white;
+    }
+    
+    ul {
+      list-style-image:url("https://moonhillcrag.neocities.org/assets/star.png");
+    }
+    
+    .button {
+      height:40.3px;
+      width:114.4px;
+    }
+    
+    .ghostlink {
+      text-decoration:none;
+    } 
+    
+    .linklist {
+      height:240px;
+      width:210px;
+      border:5px solid white;
+      padding:15px 30px 30px 30px;
+      margin:1px 30px 0px 0px;
+      color:white;
+      background:#0c015c;
+      font-size:20px;
+      border-radius: 20px;
+    }
+    
+    .titles {
+      color: #e0d502; 
+      font-family:'helvetica';
+      margin:20px 30px 30px 20px;
+    }
+    
+    .titles2 {
+      color: #e0d502; 
+      font-family:'helvetica';
+      margin:10px 15px 10px 15px;
+    }
+    
+    .bigboy {
+      color: blue;
+      font-family:"upheaval";
+      font-size:50px;
+      letter-spacing:3px;
+      margin:20px;
+    }
+    
+    .hcontainer {
+      border:2px solid white;
+      background:#0c015c;
+      margin:5px;
+      border-radius: 20px;
+    }
+    
+    .pcontainer {
+      border:2px solid white;
+      background:black;
+      margin:5px;
+      border-radius: 20px;
+    }
+    
+    .subcontainer {
+      border:5px solid white;
+      background:#0c015c;
+      margin:10px 0px 10px 0px;
+      border-radius: 20px;
+    }
+    
+    .mylinks {
+      display:inline-block;
+      width:274.8px;
+      margin:10px 15px 10px 50px;
+    }
+    
+    .sticky {
+      position:fixed;
+      top:0;
+      left:0;
+    }
+    
+    #comments {
+      display:inline-block;
+      margin:10px 5px 10px 5px;
+      vertical-align:top;
+    }
+    
+    #changelog {
+      display:inline-block;
+      margin:10px 5px 10px 10px;
+    }
+    
+    #scrolllist {
+      height:210px;
+      width:603px;
+      overflow:auto;
+      font-size:20px;
+      padding:15px 5px 15px 30px;
+      margin:1px 5px 30px 0px; 
+      border:5px solid white; 
+      background:black; 
+      display:inline-block; 
+      color:white;  
+      list-style-image:none;
+      border-radius: 20px 0px 0px 20px;
+    }
+    
+    #navbar {
+      order:1;
+      border:5px solid white;
+      padding:1px 5px 1px 5px;
+      margin:0px 30px 10px 50px;
+      background:#0c015c;
+      font-size:30px;
+      width:210px;
+      border-radius: 20px;
+    }
+    
+    #flex {
+      display:flex;
+    }
+    
+    #content {
+      height:1000px;
+      flex:1;
+      order:2;
+    }
+    
+      
+      

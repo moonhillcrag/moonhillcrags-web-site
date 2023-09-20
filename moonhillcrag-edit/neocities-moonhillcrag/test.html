@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not Found</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <script src="jquery-3.7.0.js"></script>
+  </head>
+  
+  <body>
+    <h1>Test</h1>
+    <p>You should not be seeing this, get out of here.</p>
+    
+    <div id="Comments">
+
+      <div id="display">
+
+      </div>
+    
+      <div id="namessage">
+        <form id="infocomment" onsubmit="return false">
+          <input type="text" maxlenght="25" name="name" id="name" placeholder="name" required style="width:100%"/><br/>
+          <input type="text" maxlenght="200" name="message" id="message" placeholder="message" required style="width:80%"/>
+          <button type="submit" id="postbtn" style="width:19%">Post</button>
+        </form>
+      </div>
+
+      <script defer>
+
+        var submit = document.getElementById("postbtn");
+
+        //function that handles posting the comment
+        submit.onclick = function () {
+
+          var nome = document.getElementById("name").value;
+          var comment = document.getElementById("message").value;
+
+          var jsonData = JSON.stringify({
+              Name: nome,
+              Comment : comment,
+          });
+          
+          console.log(jsonData);
+          console.log(nome);
+          console.log(comment);
+          $.ajax(
+            {
+                url  : "/comments.json",
+                type : "POST",
+                data : jsonData,
+            });
+          };
+            
+        </script>
+    
+    </div>  
+  
+  </body>
+</html>

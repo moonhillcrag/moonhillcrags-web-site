@@ -1,0 +1,203 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+    
+html, body {
+    margin:0px;
+    min-height:1000px;
+    background:black
+    url(https://moonhillcrag.neocities.org/assets/spacebackground.gif)
+    repeat;
+    background-origin:border-box;
+    
+    }
+    
+    @font-face {
+    font-family: 'upheaval';
+    src: url('https://moonhillcrag.neocities.org/fonts/upheavalfont/upheavtt-webfont.woff2') format('woff2'),
+         url('https://moonhillcrag.neocities.org/fonts/upheavalfont/upheavtt-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+    }
+    
+    @font-face {
+    font-family: 'exo';
+    src:  url('https://moonhillcrag.neocities.org/fonts/Exo/Exo-VariableFont_wght.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    }
+    
+    @font-face {
+    font-family: 'frutiger';
+    src:  url('https://moonhillcrag.neocities.org/fonts/Frutiger-Font/FTB.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    }
+    
+    @font-face {
+    font-family: 'frutiger2';
+    src:  url('https://moonhillcrag.neocities.org/fonts/Frutiger-Font/FTLC.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    }
+    
+    p {
+      color:white;
+      font-family:"exo";
+      font-size:18px;
+      margin:10px 15px 10px 15px;
+    }
+    
+    a:link {
+      color: #e0d502;
+    }
+    
+    a:visited {
+      color: #e0d502;
+    }
+    
+    a:hover {
+      color:white;
+    }
+    
+    ul {
+      list-style-image:url("https://moonhillcrag.neocities.org/assets/star.png");
+    }
+    
+    .button {
+      height:40.3px;
+      width:114.4px;
+    }
+    
+    .ghostlink {
+      text-decoration:none;
+    } 
+    
+    .titles {
+      color: #e0d502; 
+      font-family:'exo';
+      font-weight:900;
+      margin:20px 30px 30px 20px;
+    }
+    
+    .titles2 {
+      color: #e0d502; 
+      font-family:'frutiger2';
+      margin:10px 15px 10px 15px;
+    }
+    
+    .hcontainer {
+      border:2px solid white;
+      background:linear-gradient(to bottom right,#0c015c, #3a28b8);
+      margin:5px;
+      border-radius: 20px;
+    }
+    
+    .pcontainer {
+      border:2px solid white;
+      background:black;
+      margin:5px;
+      border-radius: 20px;
+    }
+
+    .vcontainer {
+      display:inline-block;
+      margin:20px;
+    }
+    
+    .subcontainer {
+      border:5px solid white;
+      background:#0c015c;
+      margin:10px 0px 10px 0px;
+      border-radius: 20px;
+    }
+    
+    .sticky {
+    position: sticky;
+    top: 10px;
+    left: 0px;
+    }
+
+    #bigboy {
+      color: blue;
+      font-family:"upheaval";
+      font-size:50px;
+      letter-spacing:3px;
+      margin:0px 20px 20px 20px;
+      padding:20px 0px 0px 0px;
+    }
+
+    #mylinks {
+      display:inline-block;
+      width:274.8px;
+      margin:10px 15px 10px 50px;
+    }
+
+    #linklist {
+      height:260px;
+      width:210px;
+      border:5px solid white;
+      padding:15px 30px 30px 30px;
+      margin:1px 30px 0px 0px;
+      color:white;
+      background:#0c015c;
+      font-size:20px;
+      border-radius: 20px;
+      font-family:'exo';
+    }
+    
+    #comments {
+      display:inline-block;
+      margin:10px 5px 10px 5px;
+      vertical-align:top;
+      width:43%;
+    }
+    
+    #changelog {
+      display:inline-block;
+      margin:10px 5px 10px 15px;
+      width:50%;
+    }
+    
+    #scrolllist {
+      height:210px;
+      width:100%;
+      overflow:auto;
+      font-size:20px;
+      font-family:'frutiger2';
+      font-weight:100;
+      padding:15px 5px 15px 30px;
+      margin:1px 5px 30px 0px; 
+      border:5px solid white; 
+      background:black; 
+      display:inline-block; 
+      color:white;  
+      list-style-image:none;
+      border-radius: 20px 0px 0px 20px;
+    }
+    
+    #navbar {
+      order:1;
+      border:5px solid white;
+      padding:1px 5px 1px 5px;
+      margin:5px 30px 10px 50px;
+      background:#0c015c;
+      font-family:'exo';
+      font-size:30px;
+      width:210px;
+      border-radius: 20px;
+    }
+    
+    #flex {
+      display:flex;
+      height:100%;
+    }
+    
+    #content {
+      height:1000px;
+      flex:1;
+      order:2;
+    }
+    
+      
+      
