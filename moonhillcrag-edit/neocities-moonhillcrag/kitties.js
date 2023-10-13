@@ -71,9 +71,9 @@ function start() {
 
 function fall() {
 
-    let audio = new Audio('https://docs.google.com/uc?export=download&id=1J17_fixDP17Dn-eFW1qcLpD1AqTCsVoc');
+    let audio = new Audio('https://github.com/moonhillcrag/moonhillcrags-web-site/raw/main/Arquivos%20importantes/explosion.mp3');
 
-    let audio2 = new Audio('https://docs.google.com/uc?export=download&id=1UDZhqHMEX0Skp5qoEqLq8R9JJBSbZjGo');
+    let audio2 = new Audio('https://github.com/moonhillcrag/moonhillcrags-web-site/raw/main/Arquivos%20importantes/catmeow.mp3');
    
     var pos = getRandomNumber(0, winWidth - 100);
     
