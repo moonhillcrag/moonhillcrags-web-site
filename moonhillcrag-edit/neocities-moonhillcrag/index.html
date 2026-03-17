@@ -8,7 +8,7 @@
     <script defer src="script.js"></script>
 
   </head>
-  <body>
+  <body onload="getPlaying()">
     
     <center><h1 id="bigboy">Moon Hill Crag</h1></center>
     
@@ -47,7 +47,18 @@
             </ul>
             
           </div>
+
+          <div style="margin:20px 30px 10px 50px;">
+            <div class="subcontainer" style="width:270.2px">
+              <center><h2 class="titles2">Currently listening to</h2></center>
+            </div>
           
+            <div class="subcontainer">
+              <center><img id="albumArt"></img></center>
+              <center><p id="current">Fuck all lol</p></center>
+            </div>
+          </div>
+
           <div style="margin:20px 30px 10px 50px;">
             <div class="subcontainer" style="width:270.2px">
               <center><h2 class="titles2">My Button</h2></center>
@@ -134,6 +145,12 @@
         
           
             <ul id="scrolllist">
+              <p style="margin:0px;">-17/03/2026</p>
+              <li>v1.3</li>
+              <li>Wow it's been like almost 2 years since I've done anything here</li>
+              <li>Fixed the background music not playing and changed it to "The Luma and the Hat" from Super Mario Galaxy 2</li>
+              <li>Added a tab in the nav bar that shows which music I'm currently listening to</li>
+              <br>
               <p style="margin:0px;">-13/10/2023</p>
               <li>Sorry for the inactivity, I've been a bit busy</li>
               <li>Fixed some stuff with Save The Kitties!!!! and finally backed the site up on Github</li>
@@ -275,8 +292,8 @@
       
     </div>
 
-    <audio onloadstart="this.volume=0.1" id="music" autoplay="on" loop="on">
-      <source src="https://vgmsite.com/soundtracks/super-mario-galaxy-ost-super-mario-35th-anniversary-release/oitybebryx/31%20Gateway%20Galaxy.mp3" type="audio/mpeg">
+    <audio onloadstart="this.volume=0.2" id="music" autoplay="on" loop="on">
+      <source src="https://lambda.vgmtreasurechest.com/soundtracks/super-mario-galaxy-2/lmczpagi/2-30.%20The%20Luma%20and%20the%20Hat.mp3" type="audio/mpeg">
     </audio>
 
   </body>

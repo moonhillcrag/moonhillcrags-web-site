@@ -9,7 +9,8 @@
 
   </head>
 
-  <body>
+  <body onload="getPlaying()">
+    
     
     <center><h1 id="bigboy">Moon Hill Crag</h1></center>
     
@@ -48,6 +49,17 @@
             </ul>
             
           </div>
+
+          <div style="margin:20px 30px 10px 50px;">
+            <div class="subcontainer" style="width:270.2px">
+              <center><h2 class="titles2">Currently listening to</h2></center>
+            </div>
+          
+            <div class="subcontainer">
+              <center><img id="albumArt"></img></center>
+              <center><p id="current">Fuck all lol</p></center>
+            </div>
+          </div>
           
           <div style="margin:20px 30px 10px 50px;">
             <div class="subcontainer" style="width:270.2px">
@@ -71,7 +83,7 @@
           </div></center>
 
           <audio onloadstart="this.volume=0.1" id="music" style="margin:20px 0px 10px 50px; width:280px; height:50px" autoplay="on" loop="on">
-            <source src="https://vgmsite.com/soundtracks/super-mario-galaxy-ost-super-mario-35th-anniversary-release/oitybebryx/31%20Gateway%20Galaxy.mp3" type="audio/mpeg">
+            <source src="https://lambda.vgmtreasurechest.com/soundtracks/super-mario-galaxy-2/lmczpagi/2-30.%20The%20Luma%20and%20the%20Hat.mp3" type="audio/mpeg">
           </audio>
         
         </aside>
